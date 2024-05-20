@@ -1,0 +1,220 @@
+.container-fluid{
+    padding: 24px 24px 24px 32px;
+    display: flex;
+}
+div{
+    border: 0px solid red;
+    padding: 2px;
+}
+#left-bar{
+    display:flex;
+    flex-direction: column;
+}
+
+#left-bar .logo{
+    text-align: left;
+    height: 36px;
+}
+#left-bar .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 90px 75px 40px 85px;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 450px;
+    height: auto;
+}
+#left-bar h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 33px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #2e343b;
+}
+#left-bar h2{
+    flex-grow: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #01052d;
+}
+#left-bar #message{
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #7f82a1;
+    height: 24px;
+
+}
+
+#left-bar label{
+height: 18px;
+font-family: 'Inter', sans-serif;
+font-size: 13px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.38;
+letter-spacing: 0.1px;
+text-align: left;
+color: #2e343b;
+}
+
+#left-bar input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: solid 0.5px #e6e3ce;
+    background-color: #f8f5f6;
+    padding: 7px 10px;
+}
+
+#left-bar #forgot-password{
+    height: 18px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #6470f6;
+    font-family: 'inter', sans-serif;
+}
+
+button{
+    background-color: #ff1d1d;
+    border: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    height: 40px;
+    border-radius: 9px;
+    padding: 10px 0px;
+}
+button p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#left-bar #redirect{
+height: 17px;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+    color: #585757; 
+}
+
+
+#right-bar{
+    padding: 90px 50px;
+    min-height: 50px;
+    border-radius: 16px;
+    background-color: #ffeded;
+    background-image: url('asset/1decoration.png');
+    background-position: bottom left; 
+    background-repeat: no-repeat;
+    padding: 60px 60px;
+    display:flex;
+    flex-direction: column;
+}
+
+#right-bar-child{
+    min-height: 50px;
+    background-color: rgba(186, 55, 55, 0.1);
+    width: 500px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    border-style: solid;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#right-bar .message2, #right-bar img{
+    margin: 10px 40px;
+}
+
+#right-bar h4{
+    font-family: 'Inter' sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e343b;
+}
+
+#right-bar h5{
+    font-family: 'Inter sans-serif';
+    font-size: 23px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7f82a1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

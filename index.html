@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>GetSub Task</title>
+    <style>
+      
+    </style>
+</head>
+
+<body class="container-fluid">
+    <div class="row" >
+
+        <div id="left-bar" class="col-md-6">
+           <div class="logo">
+                <h4> Hexiter </h4>
+           </div>
+                <section id="form-section" >
+                    <div class="card-body">
+                        <h2 class="text-center"> Welcome Back</h2>
+                        <p class="text-center" id="message"> Lets start off where we stopped</p>
+                            <form action="" id="ipForm" method="post">
+                                <div class="form-group">
+                                    <label for="Email Address"> Email Address</label>
+                                    <input type="text" placeholder="Joan Ben@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Password">Password</label>
+                                    <input type="text" placeholder="**********">
+                                </div>
+                                    <a href="#" id="forgot-password">Forgot Password?</a>
+                                    
+                                    <button type="submit" class="text-white fw-bold">  Sign In</button>
+                            </form>
+                        
+                        <p id="redirect" class="text-center"> Don't have an account? <a href="#" class="text-danger"> Sign Up</a></p>
+                    </div>
+                </section>
+        </div>
+
+        <div id="right-bar" class="col-md-6">
+            <div id="right-bar-child">
+                <div class="message2">
+                    <h4> Best Rate </h4>
+
+                    <h5> We have the best-rate among others. <br> Our rates are the best in all market-rates</h5>
+               </div>
+               <div>
+                    <img src="asset/advert-photo.png" alt="advert photo">
+               </div>
+               <div>
+                <img src="asset/indicator.png" alt="indicator">
+               </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MODAL THAT DISPLAYS RESULT ON CLICK OF THE SIGN UP BUTTON -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="ipInfo"></p>
+        </div>
+      </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="js/jquery.ymin.js"></script> 
+    <script src="js/main.js"></script> 
+   
+    </script>
+    </body>
+</html>
